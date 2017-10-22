@@ -1,15 +1,20 @@
 body{
-  background-image: url("./../images/travel8.jpeg");
+ /* background-image: url("./../images/grey.jpg");
+  background-color: black;
   background-repeat: none;
   background-size: cover;
-  background-position: cover;
+  background-position: cover;*/
+  background: #e6e6e6;
 }
 
-.mainInfo{
-  background-color: rgba(255,255,255,0.7);
-  border-radius: 10px;
-  margin-top:10px;
+#myCarousel{
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 50px;    
 }
+
+/*#carouselStart{
+
+}*/
 
 #createTrip{
   padding: 20px;
@@ -106,10 +111,6 @@ html, body {
 
 
 
-.col-md-12{
-  background-color: white;
-  opacity:.7;
-}
 
 
 html {
@@ -117,66 +118,58 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 150px;
-}
-
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 30px;
   background-color: rgba(0,0,0,0.4);
   text-align: center;
 }
 
 .container{
-  margin-top: 20px;
-  color: #fff;
-  width: 100%;
+  margin-top: 10px;
+  width: 700px;
 }
 
-.fa-twitter {
-    color: #4099FF;
+#loginForm{
+  width:400px;
 }
 
-.fa-facebook {
-    color: #3B5998;
+#container0{
+  width:500px;
+  height:400px;
+  padding-left:50px;
 }
 
-.fa-youtube-play {
-    color: #e52d27;
+#buttonDiv{
+  display: inline-block;
 }
 
-.fa-rss {
-    color: #FF6600;
+.deleteBtn{
+  width: 65px;
+  margin-bottom: 10px;
 }
 
-.fa-vine {
-    color: #00a478;
+#infoBox{
+  background-color: white;
+  margin-bottom: 45px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px dimgrey;
 }
-
-.fa-flickr {
-    color: #ff0084;
+h6{
+  color:white;
 }
+/*#slide{
 
-.fa-twitch {
-    color: #6441A5;
+  width:400px;
+  height:400px;
 }
+*/
 
-.fa-linkedin {
-    color: #007bb6;
-}
+img{
 
-.fa {
-    opacity: 0.5;
-    transition: 1s;
-    -webkit-transition: 1s;
-    padding-bottom:40px;
-}
-
-.fa:hover{
-    opacity: 1;
-    transition: 1s;
-    -webkit-transition: 1s;
+  width:800px;
+  height:600px;
 }
