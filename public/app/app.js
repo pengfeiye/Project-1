@@ -161,7 +161,7 @@ $(document).ready(function(){
           $('#noPlans').text('You currently have no destinations, please use the Plan Trip button to get started.');
       } else {
           $('#noPlans').text('');
-          reload();  
+          reload();
       }
     }
 
