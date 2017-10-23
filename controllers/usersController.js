@@ -28,6 +28,7 @@ function postLogin(req, res) {
     failureRedirect: "/login",
     failureFlash: true
   });
+  console.log(req)
 
   return loginStrategy(req, res);
 }
