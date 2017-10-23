@@ -23,7 +23,8 @@ $(document).ready(function(){
         // bounds option in the request.
         autocomplete.bindTo('bounds', map);
 
-        var infowindow = new google.maps.InfoWindow();
+        var infowindow = new google.maps.InfoWindow({
+        });
 
         var infowindowContent = document.getElementById('infowindow-content');
 
@@ -63,6 +64,7 @@ $(document).ready(function(){
                     (place.address_components[2] && place.address_components[2].short_name || '')
                 ].join(' ');
             }
+
 
             infowindowContent.children['place-icon'].src = place.icon;
             infowindowContent.children['place-name'].textContent = place.name;
